@@ -7,6 +7,9 @@ body {
     background-color: #1F2937;
     color: #fff;
     padding: 15px 150px 100px 150px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 100px;
 }
 
 .header {
@@ -27,7 +30,13 @@ body {
     font-weight: 800;
 }
 
+.hero-part {
+    display: flex;
+    gap: 200px;
+}
+
 .hero-link-subtext {
     color: #E5E7EB;
     font-size: 18px;
 }
+
