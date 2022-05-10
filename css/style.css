@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 a {
@@ -72,4 +72,25 @@ a {
     font-size: 36px;
     font-weight: 800;
     color: #1f2937
+}
+
+.img-section {
+    display: flex;
+    gap: 25px;
+}
+
+.img-and-text {
+    width: 180px;
+}
+
+.img-subtext {
+    text-align: center;
+    padding-top: 10px;
+    color: #444;
+}
+
+.small-image {
+    height: 180px;
+    border: #3882F6 4px solid;
+    border-radius: 18px;
 }
