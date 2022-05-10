@@ -10,7 +10,7 @@ a {
 .section-one {
     background-color: #1F2937;
     color: #fff;
-    padding: 15px 200px 100px 200px;
+    padding: 15px 200px 150px 200px;
     display: flex;
     flex-direction: column;
     row-gap: 100px;
@@ -63,7 +63,7 @@ a {
 .section-two {
     display: flex;
     flex-direction: column;
-    padding: 50px 0 100px 0;
+    padding: 50px 0 150px 0;
     align-items: center;
 }
 
@@ -93,4 +93,21 @@ a {
     height: 180px;
     border: #3882F6 4px solid;
     border-radius: 18px;
+}
+
+.section-three {
+    padding: 150px 350px 100px 350px;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.quote-author {
+    font-weight: bold;
+    text-align: right;
+    font-size: 22px;
 }
